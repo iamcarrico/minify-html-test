@@ -1,0 +1,49 @@
+# Site settings
+name: Minify HTML Test
+description: "A test for the minify html test."
+baseurl: "http://iamcarrico.github.io/minify-html-test"
+url: "http://iamcarrico.github.io/minify-html-test"
+
+# Development settings
+development: false
+debug: false
+
+# Display settings
+markdown: kramdown
+permalink: pretty
+lsi: false
+
+# Pagination
+paginate: 10
+paginate_path: "page:num"
+
+# Build settings
+timezone: America/Chicago
+future: false
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+  - config.rb
+  - package.json
+  - gulpfile.js
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - css
+
+# Extra gems to have fancy things.
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Asset Pipeline settings
+assets:
+  dirname: assets
+  sources:
+    - js
+    - css
+    - img
+    - bower_components
+  js_compressor: 'uglifier'
+  css_compressor: 'yui'
+  cache: true

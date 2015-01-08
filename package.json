@@ -1,0 +1,19 @@
+{
+  "name": "minify-html-test",
+  "version": "1.0.0",
+  "homepage": "http://iamcarrico.github.io/minify-html-test",
+  "repository": "https://github.com/iamcarrico/minify-html-test",
+  "description": "A test for the minify html test.",
+  "author": {
+    "name": "Ian Carrico",
+    "email": "github@iancarrico.com",
+    "url": "https://github.com/iamcarrico"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-poole": "0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

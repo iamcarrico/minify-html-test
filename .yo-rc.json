@@ -1,0 +1,18 @@
+{
+  "generator-poole": {
+    "projectName": "Minify HTML Test",
+    "projectSlug": "minify_html_test",
+    "projectUrl": "http://iamcarrico.github.io/minify-html-test",
+    "description": "A test for the minify html test.",
+    "projectRepo": "git@github.com:iamcarrico/minify-html-test.git"
+  },
+  "generator-sass": {
+    "gems": {
+      "sass": "~>3.4",
+      "compass": "~>1.0",
+      "breakpoint": "~>2.5",
+      "singularitygs": "~>1.4",
+      "toolkit": "~>2.6"
+    }
+  }
+}
